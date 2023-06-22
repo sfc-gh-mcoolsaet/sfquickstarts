@@ -299,8 +299,8 @@ Duration: 5
 
 ```sql
 USE ROLE accountadmin;
-DROP PROCEDURE IF EXISTS frostbyte_tasty_bytes.analytics.sproc_train_linreg(varchar, array, varchar, varchar);
-DROP FUNCTION IF EXISTS frostbyte_tasty_bytes.analytics.udf_linreg_predict_location_sales(float, float, float, float, float, float, float, float);
+DROP PROCEDURE IF EXISTS frostbyte_tasty_bytes_dev.analytics.sproc_train_linreg(varchar, array, varchar, varchar);
+DROP FUNCTION IF EXISTS frostbyte_tasty_bytes_dev.analytics.udf_linreg_predict_location_sales(float, float, float, float, float, float, float, float);
 DROP DATABASE IF EXISTS frostbyte_tasty_bytes_dev;
 DROP DATABASE IF EXISTS frostbyte_safegraph;
 DROP WAREHOUSE IF EXISTS tasty_dsci_wh;
